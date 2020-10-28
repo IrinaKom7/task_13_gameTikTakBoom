@@ -1,0 +1,51 @@
+body {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+h1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #cecece;
+    padding: 10px 10px 10px 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+   
+}
+
+.timer-output{
+    width: 200px;
+    background: #222;
+    color: darkred;
+    padding: 16px 8px;
+    font-size: 64px;
+    text-align: center;
+    line-height: 1;
+    user-select: none;
+    border-radius: 4px;
+}
+
+.timer-output-wrapper{
+    width: calc(100% - 24px);
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin: 12px;
+}
+
+.timepanel {
+	width: 300px;
+	font-size: 16px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 4px;
+}
+
+.btn_back{
+    margin-top: 30px;
+    
+}

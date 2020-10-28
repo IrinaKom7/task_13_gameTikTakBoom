@@ -1,0 +1,18 @@
+.container-fluid{
+    width: 80%;
+    margin-top: 30px; 
+}
+
+.card-body{
+    background-color: rgba(255, 242, 184, 0.945);
+}
+
+.card-header{
+    background-color: rgb(225, 253, 223);
+}
+
+.btn_back{
+    position: fixed;
+    bottom: 100px; 
+    right: 150px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Об игре ТикТакБум</title>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="info_style.css" type="text/css"/>
+</head>
+<body>
+    <section class="main-section"></section>
+        <div class="container-fluid" title="page">
+            <div id="accordion">
+                <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Описание игры "Тик-Так-Бум":
+                    </button>
+                    </h5>
+                </div>
+            
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        Игроку(игрокам) даются вопросы в которых есть 2 варианта ответа, верный и не верный. Проигрывает тот игрок, у которого закончилось время игры. 
+                    </div>
+                </div>
+                </div>
+                <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Начало игры:
+                    </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        - Вы можете задать количество игроков от 1 до 4 (если игрок 1, количество можно не изменять).
+                        - В окошке ниже указываете время игры от 10 секунд до 60 секунд.
+                        - Далее нужно нажать на кнопку <strong>&lt;Старт игры&gt;</strong>, после чего начнется игра на время.
+                        - На экране появляется один вопрос и два варианта ответа. Если игрок отвечает правильно, к его времени прибавляется 5 секунд. Если не правильно, отнимается 5 секунд.
+                        - По той же схеме, дается возможность следующему игроку ответить на вопрос и так далее по очереди.
+                    </div>
+                </div>
+                </div>
+                <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Конец игры:
+                    </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        Игра продолжается, пока идет время. Игрок у которого закончилось время игры - проигрывает. &#9785;
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <form class="btn_back">
+                <a class="btn btn-outline-info btn-lg" href="index.html" id="back" role="button">В игру &#8635; </a>
+            </form>
+        
+    </section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
